@@ -6,4 +6,4 @@ bookstoreDiscount = (coverPrice - (coverPrice * 0.40))
 shipping = 3
 additionalCopy = 0.75
 
-print((amountOfBooks * bookstoreDiscount) + shipping + (amountOfBooks * additionalCopy))
+print((amountOfBooks * bookstoreDiscount) + shipping + ((amountOfBooks - 1) * additionalCopy))
