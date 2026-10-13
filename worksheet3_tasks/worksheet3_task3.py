@@ -6,5 +6,5 @@ total_monthly_SMS = 650
 optionA_result = ((total_monthly_SMS - 500) * 0.10)
 optionB_result = (total_monthly_SMS * 0.02)
 
-# Output the result
+# Output the result of each plan
 print(f"With option A: €{optionA_result}\nWith option B: €{optionB_result}")
