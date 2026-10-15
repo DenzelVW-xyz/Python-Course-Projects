@@ -13,8 +13,10 @@ for country in questions:
     if user_answer == answers[question_index]:
         points += 2
         question_index += 1
+        print("Correct")
     else:
         question_index += 1
+        print("Incorrect")
 
 print(f"You scored {points}/12")
 
