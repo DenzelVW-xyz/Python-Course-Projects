@@ -34,4 +34,4 @@ elif selection == "m":
     print(f"Your total is €{total}")
 
 else:
-    print("Invalid Stand Chosen. ")
+    print("Invalid Stand Chosen.")
