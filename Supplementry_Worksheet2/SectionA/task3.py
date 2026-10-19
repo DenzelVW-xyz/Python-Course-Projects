@@ -1,4 +1,4 @@
-temperature = input("Current temperature: ")
+temperature = float(input("Current temperature: "))
 
 if temperature < 50:
     print("Wear a jacket")
