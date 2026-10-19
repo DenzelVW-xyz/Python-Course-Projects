@@ -1,5 +1,3 @@
-# I = PTR
-
 x = float(input("Input the amount of money loaned to you: "))
 y = float(input("Input the interest rate: "))
 z = int(input("Input the years: "))
