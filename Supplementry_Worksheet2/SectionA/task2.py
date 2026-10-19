@@ -7,10 +7,12 @@ if operator == "+":
 elif operator == "-":
     print(num1 - num2)
 elif operator == "/":
+    
     try:
         print(num1 / num2)
     except ZeroDivisionError:
         print("You cannot divide by zero.")
+        
 elif operator == "*":
     print(num1 * num2)
 else:
