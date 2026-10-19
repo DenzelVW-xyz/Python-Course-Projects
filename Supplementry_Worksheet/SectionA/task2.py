@@ -1,7 +1,7 @@
 c = int(input("How many crossiants: "))
-y = float(2.00)
+y = float(input("Input price: "))
 m = int(input("How many muffins: "))
-z = float(2.50)
+z = float(input("Input price: "))
 total = (c * y) + (m * z)
 
 print(f"Crossiants: {c * y} dollars")
