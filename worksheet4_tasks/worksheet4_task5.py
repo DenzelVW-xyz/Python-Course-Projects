@@ -1,7 +1,7 @@
 temperature = 0
 
 if temperature < 0:
-    print("freezing temperatuer")
+    print("freezing temperature")
 elif temperature >= 0 and temperature <= 10:
     print("Very cold weather")
 elif temperature >= 11 and temperature <= 20:
