@@ -14,3 +14,6 @@ elif choice == 3:
     print(f"Your item is: {menu[3]}")
 else:
     print("Invalid Choice")
+    
+
+# Note: The reason we are using numbers here is because it would be faster then using strings.
