@@ -1,10 +1,10 @@
 menu = {
-    1 : "pizza",
+    1 : "Pizza",
     2 : "Burger",
     3 : "Salad"
 }
 
-choice = int(input("Please input an item (1, 2, 3): "))
+choice = int(input("Please input an item (1 for pizza, 2 for burger, 3 for salad): "))
 
 if choice == 1:
     print(f"Your item is: {menu[1]}")
