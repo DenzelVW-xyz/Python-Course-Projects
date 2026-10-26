@@ -1,8 +1,6 @@
-number = 1
 product = 1
 
-while number <= 5:
-    product *= number
-    number += 1
+for i in range(1, 6):
+    product *= i
 
 print("Product:", product)

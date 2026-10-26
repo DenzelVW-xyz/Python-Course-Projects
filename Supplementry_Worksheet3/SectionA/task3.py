@@ -1,6 +1,6 @@
-numbers = []
+numbers = 0
 
 for i in range(0, 11, 1):
-    numbers.append(i)
+    numbers += i
     
-print(sum(numbers))
+print(numbers)
