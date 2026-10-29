@@ -1,0 +1,13 @@
+Local Variable: add1
+Void Function: welcome()
+Fruitful Function: addFirst()
+Built-in Function: print()
+Function With Parameters: add(23, 45)
+Return Value: print(add(23, 45))
+Function Name: def welcome()
+Module: import math
+Comment: #find the square root
+Skip a line: line3
+
+
+Welcome is a void function which returns nothing so adding print() within the function will make it print the Argument when called, The add function has return because we don't want to print the value when it is called, it is better to manually use the print function with our add function withing the code, adding return will return the value, and that value will be printed.
