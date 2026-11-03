@@ -5,3 +5,4 @@ def square(size):
         print()
     
 square(5)
+
