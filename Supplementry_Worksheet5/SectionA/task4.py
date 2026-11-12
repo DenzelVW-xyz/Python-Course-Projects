@@ -1,7 +1,4 @@
-sentence = input("Input your sentence: ").split()
-
-for index, word in enumerate(sentence):
-    if "good" in word:
-        sentence[index] = "great"
+sentence = input("Input your sentence: ")
+sentence = sentence.replace("good", "great")
         
-print(" ".join(sentence))
+print(sentence)
