@@ -7,7 +7,8 @@ print(f"{max(temperature_log)}\n{min(temperature_log)}")
 # Task 2
 duplicate_list = [1, 1, 2, 2, 2, 4, 4, 6, 5, 5, 8, 8, 8, 9]
 removed_duplicates = list(set(duplicate_list))
-print(removed_duplicates)
+for element in removed_duplicates:
+    print(element)
 
 # Task 3
 print(temperature_log[1:5])
